@@ -17,7 +17,6 @@ public class HelloController {
     public String hello(@RequestParam("user") String user) {
         return hello.hello(user);
     }
-
     @GetMapping("/helloEvery")
     public String helloEvery() {
         return "Hello Everyone!!";
