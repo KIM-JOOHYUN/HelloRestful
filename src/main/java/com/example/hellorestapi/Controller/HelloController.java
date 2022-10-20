@@ -20,6 +20,6 @@ public class HelloController {
 
     @GetMapping("/helloEvery")
     public String helloEvery() {
-        return "Hello Everyone!";
+        return "Hello Everyone!!";
     }
 }
